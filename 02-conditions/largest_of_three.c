@@ -11,11 +11,6 @@ Purpose: Find largest among three numbers
 int main()
 {
     int a, b, c;
-
-    printf("=====================================\n");
-    printf("      LARGEST OF THREE NUMBERS\n");
-    printf("=====================================\n");
-
     printf("Enter three numbers: ");
     scanf("%d %d %d", &a, &b, &c);
 
