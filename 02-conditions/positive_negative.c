@@ -12,10 +12,6 @@ int main()
 {
     int number;
 
-    printf("=====================================\n");
-    printf("      NUMBER CLASSIFICATION\n");
-    printf("=====================================\n");
-
     printf("Enter any integer: ");
     scanf("%d", &number);
 
