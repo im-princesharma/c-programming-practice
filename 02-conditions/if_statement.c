@@ -20,10 +20,6 @@ int main()
 {
     int age;
 
-    printf("=====================================\n");
-    printf("        IF STATEMENT EXAMPLE\n");
-    printf("=====================================\n");
-
     // Take age from user
     printf("Enter your age: ");
     scanf("%d", &age);
