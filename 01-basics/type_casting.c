@@ -1,19 +1,34 @@
-// Header file for input and output functions
+/*
+==================================================
+File: type_casting.c
+Topic: Type Casting
+Purpose: Convert one data type into another
+==================================================
+*/
+
 #include <stdio.h>
 
-// Main function
 int main()
 {
-    // Variable declaration
     int a = 10;
     int b = 3;
 
-    // Type casting integer values to float
+    printf("Without Type Casting\n");
+    printf("--------------------\n");
+    printf("10 / 3 = %d\n", a / b);
+
+    printf("\nWith Type Casting\n");
+    printf("-----------------\n");
+
     float result = (float)a / b;
+    printf("10 / 3 = %.2f\n", result);
 
-    // Display result
-    printf("Result = %.2f\n", result);
+    char grade = 'A';
 
-    // Return 0 indicates successful execution
+    printf("\nCharacter to Integer\n");
+    printf("--------------------\n");
+    printf("Character = %c\n", grade);
+    printf("ASCII Value = %d\n", grade);
+
     return 0;
 }

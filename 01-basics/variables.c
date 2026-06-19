@@ -1,15 +1,34 @@
-// Header file for input and output functions
+/*
+==================================================
+File: variables.c
+Topic: Variables
+Purpose: Learn declaration, initialization,
+         and updating variables
+==================================================
+*/
+
 #include <stdio.h>
 
-// Main function
 int main()
 {
-    // Variable declaration and initialization
     int age = 19;
+    float cgpa = 8.75;
+    char grade = 'A';
 
-    // Display variable value
-    printf("Age = %d\n", age);
+    printf("Initial Values\n");
+    printf("-----------------\n");
+    printf("Age   = %d\n", age);
+    printf("CGPA  = %.2f\n", cgpa);
+    printf("Grade = %c\n", grade);
 
-    // Program executed successfully
+    // Updating values
+    age = 20;
+    cgpa = 9.10;
+
+    printf("\nUpdated Values\n");
+    printf("-----------------\n");
+    printf("Age   = %d\n", age);
+    printf("CGPA  = %.2f\n", cgpa);
+
     return 0;
 }

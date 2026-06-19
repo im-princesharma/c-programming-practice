@@ -1,23 +1,33 @@
-// Header file for input and output functions
+/*
+==================================================
+File: data_types.c
+Topic: Data Types in C
+Purpose: Learn different data types
+==================================================
+*/
+
 #include <stdio.h>
 
-// Main function - program execution starts here
 int main()
 {
-    // Integer data type
     int age = 19;
-
-    // Float data type
-    float marks = 89.5;
-
-    // Character data type
+    float percentage = 89.75;
+    double pi = 3.14159265359;
     char grade = 'A';
 
-    // Display values
-    printf("Age = %d\n", age);
-    printf("Marks = %.1f\n", marks);
-    printf("Grade = %c\n", grade);
+    printf("Different Data Types in C\n");
+    printf("-------------------------\n");
 
-    // Return 0 indicates successful execution
+    printf("Integer Value    : %d\n", age);
+    printf("Float Value      : %.2f\n", percentage);
+    printf("Double Value     : %.11lf\n", pi);
+    printf("Character Value  : %c\n", grade);
+
+    printf("\nMemory Usage\n");
+    printf("int    = %lu bytes\n", sizeof(age));
+    printf("float  = %lu bytes\n", sizeof(percentage));
+    printf("double = %lu bytes\n", sizeof(pi));
+    printf("char   = %lu bytes\n", sizeof(grade));
+
     return 0;
 }

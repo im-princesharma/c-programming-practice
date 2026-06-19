@@ -1,23 +1,29 @@
-// Header file for input and output functions
+/*
+==================================================
+File: area_of_circle.c
+Topic: Mathematical Formula
+Purpose: Calculate area and circumference
+==================================================
+*/
+
 #include <stdio.h>
 
-// Main function
 int main()
 {
-    // Variable declaration
-    float radius, area;
+    float radius;
+    const float PI = 3.14159;
 
-    // Take radius input from user
-    printf("Enter radius of circle: ");
+    printf("Enter radius: ");
     scanf("%f", &radius);
 
-    // Calculate area of circle
-    area = 3.14 * radius * radius;
+    float area = PI * radius * radius;
+    float circumference = 2 * PI * radius;
 
-    // Display area
-    printf("Area of Circle = %.2f\n", area);
+    printf("\nCircle Information\n");
+    printf("------------------\n");
+    printf("Radius        = %.2f\n", radius);
+    printf("Area          = %.2f\n", area);
+    printf("Circumference = %.2f\n", circumference);
 
-    // Return 0 indicates successful execution
     return 0;
 }
-
