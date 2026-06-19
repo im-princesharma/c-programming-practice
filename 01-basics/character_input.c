@@ -1,22 +1,25 @@
-// Header file for input and output functions
+/*
+==================================================
+File: character_input.c
+Topic: Character Input
+Purpose: Read characters from user
+==================================================
+*/
+
 #include <stdio.h>
 
-// Main function
 int main()
 {
-    // Variable declaration
-    char grade;
+    char ch;
 
-    // Ask user to enter grade
-    printf("Enter your grade: ");
+    printf("Enter a character: ");
+    scanf("%c", &ch);
 
-    // Take character input from user
-    scanf("%c", &grade);
+    printf("\nCharacter Information\n");
+    printf("---------------------\n");
 
-    // Display entered grade
-    printf("Your grade is %c\n", grade);
+    printf("Character : %c\n", ch);
+    printf("ASCII Code: %d\n", ch);
 
-    // Return 0 indicates successful execution
     return 0;
 }
-
