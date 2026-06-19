@@ -13,10 +13,6 @@ int main()
     int age;
     char citizen;
 
-    printf("=====================================\n");
-    printf("          NESTED IF EXAMPLE\n");
-    printf("=====================================\n");
-
     printf("Enter your age: ");
     scanf("%d", &age);
 
