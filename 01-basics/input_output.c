@@ -1,20 +1,44 @@
-// Header file for input and output functions
+/*
+==================================================
+File: input_output.c
+Topic: Input and Output
+Purpose: Learn scanf() and printf()
+==================================================
+*/
+
 #include <stdio.h>
 
-// Main function
 int main()
 {
     int age;
+    float percentage;
+    char grade;
 
-    // Ask user to enter age
     printf("Enter your age: ");
-
-    // Take input from user
     scanf("%d", &age);
 
-    // Display the entered age
-    printf("Your age is %d\n", age);
+    printf("Enter your percentage: ");
+    scanf("%f", &percentage);
 
-    // Program executed successfully
+    printf("Enter your grade: ");
+    scanf(" %c", &grade);
+
+    printf("\n----- Student Information -----\n");
+    printf("Age        : %d\n", age);
+    printf("Percentage : %.2f\n", percentage);
+    printf("Grade      : %c\n", grade);
+
     return 0;
 }
+
+/*
+Sample Input:
+19
+89.5
+A
+
+Sample Output:
+Age        : 19
+Percentage : 89.50
+Grade      : A
+*/
