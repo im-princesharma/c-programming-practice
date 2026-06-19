@@ -12,11 +12,6 @@ Purpose: Determine whether a number is
 int main()
 {
     int number;
-
-    printf("=====================================\n");
-    printf("         EVEN ODD CHECKER\n");
-    printf("=====================================\n");
-
     printf("Enter any integer: ");
     scanf("%d", &number);
 
