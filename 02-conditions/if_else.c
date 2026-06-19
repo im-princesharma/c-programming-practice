@@ -1,28 +1,40 @@
-// Program: Simple if-else example in C
-// Purpose: Check whether a number is positive, negative, or zero
+/*
+==================================================
+File: if_else.c
+Topic: If Else Statement
+Purpose: Execute different blocks of code
+         based on conditions
+==================================================
+*/
 
 #include <stdio.h>
 
-int main() {
-    int num;
+int main()
+{
+    int age;
 
-    // Input from user
-    printf("Enter a number: ");
-    scanf("%d", &num);
+    printf("=====================================\n");
+    printf("      IF ELSE STATEMENT EXAMPLE\n");
+    printf("=====================================\n");
 
-    // Condition 1: Check if number is greater than 0
-    if (num > 0) {
-        printf("The number is Positive.\n");
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    printf("\nChecking eligibility...\n");
+
+    if(age >= 18)
+    {
+        printf("\nResult: ELIGIBLE\n");
+        printf("You can vote.\n");
     }
-    // Condition 2: Check if number is less than 0
-    else if (num < 0) {
-        printf("The number is Negative.\n");
+    else
+    {
+        printf("\nResult: NOT ELIGIBLE\n");
+        printf("You cannot vote yet.\n");
+        printf("Wait until you turn 18.\n");
     }
-    // If both conditions fail
-    else {
-        printf("The number is Zero.\n");
-    }
+
+    printf("\nProgram completed successfully.\n");
 
     return 0;
 }
-
