@@ -1,23 +1,34 @@
-// Header file for input and output functions
+/*
+==================================================
+File: simple_calculator.c
+Topic: Mini Project
+Purpose: Build a simple calculator
+==================================================
+*/
+
 #include <stdio.h>
 
-// Main function
 int main()
 {
-    // Variable declaration
-    int num1, num2;
+    float num1, num2;
 
-    // Take input from user
-    printf("Enter two numbers: ");
-    scanf("%d %d", &num1, &num2);
+    printf("Enter first number: ");
+    scanf("%f", &num1);
 
-    // Perform arithmetic operations
-    printf("Addition = %d\n", num1 + num2);
-    printf("Subtraction = %d\n", num1 - num2);
-    printf("Multiplication = %d\n", num1 * num2);
-    printf("Division = %d\n", num1 / num2);
+    printf("Enter second number: ");
+    scanf("%f", &num2);
 
-    // Return 0 indicates successful execution
+    printf("\nCalculator Results\n");
+    printf("------------------\n");
+
+    printf("Addition       = %.2f\n", num1 + num2);
+    printf("Subtraction    = %.2f\n", num1 - num2);
+    printf("Multiplication = %.2f\n", num1 * num2);
+
+    if(num2 != 0)
+        printf("Division       = %.2f\n", num1 / num2);
+    else
+        printf("Division not possible\n");
+
     return 0;
 }
-
