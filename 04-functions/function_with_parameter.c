@@ -5,7 +5,6 @@ Purpose : Demonstrate passing arguments
           to a function.
 Working : Student details are passed
           through parameters and displayed.
-
 ==================================================
 */
 
