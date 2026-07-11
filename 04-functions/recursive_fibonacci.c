@@ -1,7 +1,7 @@
 /*
 ==================================================
 Title   : Recursive Fibonacci Series 
-Purpose : Generate Fibonacci numbers
+Purpose : Generate Fibonacci numbers 
           using recursion. 
 Working : Each term is calculated from
           the sum of the previous two terms.
