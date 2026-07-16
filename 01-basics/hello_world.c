@@ -8,7 +8,7 @@ Purpose: Learn basic output functions in C
 Concepts Covered: 
 1. Structure of a C Program  
 2. Header Files
-3. main() Function 
+3. main() Function  
 4. printf() Function
 5. Escape Sequences
 */
