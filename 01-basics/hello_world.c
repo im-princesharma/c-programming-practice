@@ -15,7 +15,7 @@ Concepts Covered:
 
 #include <stdio.h>
 
-int main()
+int main() 
 {
     // Simple message
     printf("Hello, World!\n");
