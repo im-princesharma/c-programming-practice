@@ -5,7 +5,7 @@ Topic: Hello World Program
 Purpose: Learn basic output functions in C  
 ==================================================
  
-Concepts Covered: 
+Concepts Covered:  
 1. Structure of a C Program  
 2. Header Files
 3. main() Function    
