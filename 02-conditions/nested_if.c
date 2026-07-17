@@ -8,7 +8,7 @@ Purpose: Learn multiple condition checking
  
 #include <stdio.h> 
  
-int main()
+int main() 
 {
     int age;
     char citizen;
