@@ -5,7 +5,7 @@ Topic: Nested If
 Purpose: Learn multiple condition checking
 ================================================== 
 */ 
-
+ 
 #include <stdio.h> 
 
 int main()
