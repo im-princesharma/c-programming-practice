@@ -2,7 +2,7 @@
 ==================================================   
 File: constants.c   
 Topic: Constants
-Purpose: Learn constant values in C  
+Purpose: Learn constant values in C   
 ================================================== 
 */
  
