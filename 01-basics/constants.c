@@ -1,7 +1,7 @@
 /* 
 ==================================================                
 File: constants.c     
-Topic: Constants  
+Topic: Constants   
 Purpose: Learn constant values in C   
 ==================================================  
 */  
