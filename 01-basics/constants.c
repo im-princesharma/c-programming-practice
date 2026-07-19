@@ -9,7 +9,7 @@ Purpose: Learn constant values in C
 #include <stdio.h>
 
 int main()
-{
+{ 
     const float PI = 3.14159;
     const int DAYS_IN_WEEK = 7;
 
