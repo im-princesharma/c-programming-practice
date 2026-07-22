@@ -12,7 +12,7 @@ Working : Individual functions handle addition,
 #include <stdio.h>
 
 int add(int a, int b)
-{
+{ 
     return a + b;
 }
 
