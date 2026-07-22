@@ -8,7 +8,7 @@ Working : Individual functions handle addition,
            division.
 ==================================================
 */
-
+ 
 #include <stdio.h>
 
 int add(int a, int b)
