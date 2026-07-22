@@ -3,7 +3,7 @@
 Title   : Calculator Using Functions    
 Purpose : Perform arithmetic operations using  
            separate functions.    
-Working : Individual functions handle addition,    
+Working : Individual functions handle addition,     
            subtraction, multiplication and
            division.    
 ==================================================
