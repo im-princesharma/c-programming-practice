@@ -1,6 +1,6 @@
 /*
 ==================================================
-Title   : Calculator Using Functions
+Title   : Calculator Using Functions  
 Purpose : Perform arithmetic operations using
            separate functions.
 Working : Individual functions handle addition,
