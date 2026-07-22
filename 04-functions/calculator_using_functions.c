@@ -6,7 +6,7 @@ Purpose : Perform arithmetic operations using
 Working : Individual functions handle addition,       
            subtraction, multiplication and 
            division.     
-==================================================
+==================================================  
 */ 
  
 #include <stdio.h>   
