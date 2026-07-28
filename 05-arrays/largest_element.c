@@ -27,7 +27,7 @@ int main()
     {
         if(arr[i] > largest)
         {
-            largest = arr[i];
+            largest = arr[i]; 
         }
     }
 
