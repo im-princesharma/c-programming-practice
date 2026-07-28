@@ -2,7 +2,7 @@
 ==================================================        
 Title   : Largest Element in Array
 Purpose : Find the largest value in an array.
-Working : Each element is compared with the
+Working : Each element is compared with the 
           current largest value.
 ==================================================
 */
