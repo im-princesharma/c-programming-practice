@@ -7,7 +7,7 @@ Working : Each element is compared with the
 ==================================================
 */
 
-#include <stdio.h>
+#include <stdio.h> 
 
 int main()
 {
