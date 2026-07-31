@@ -11,7 +11,7 @@ Working : displayMessage() prints predefined
 #include <stdio.h>
  
 void displayMessage()
-{
+{ 
     printf("Welcome to C Programming\n");
     printf("Functions help organize code\n");
     printf("Learning functions is important\n");
