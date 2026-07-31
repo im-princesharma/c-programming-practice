@@ -22,7 +22,7 @@ int main()
     printf("Program Started\n\n");
  
     displayMessage();
-
+ 
     printf("\nProgram Ended\n");
 
     return 0;
