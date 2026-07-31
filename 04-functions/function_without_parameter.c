@@ -5,7 +5,7 @@ Purpose : Demonstrate a user-defined function
           without arguments.
 Working : displayMessage() prints predefined
           messages and is called from main(). 
-==================================================
+================================================== 
 */
 
 #include <stdio.h>
