@@ -16,7 +16,7 @@ void displayMessage()
     printf("Functions help organize code\n");
     printf("Learning functions is important\n");
 }
-
+ 
 int main()
 {
     printf("Program Started\n\n");
