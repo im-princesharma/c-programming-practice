@@ -24,7 +24,7 @@ int main()
         if(citizen == 'Y' || citizen == 'y')
         {
             printf("\nEligible to vote.\n");
-        }
+        }  
         else
         {
             printf("\nCitizen requirement not met.\n");
