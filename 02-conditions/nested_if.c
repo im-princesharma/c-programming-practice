@@ -23,7 +23,7 @@ int main()
     { 
         if(citizen == 'Y' || citizen == 'y')
         {
-            printf("\nEligible to vote.\n"); 
+            printf("\nEligible to vote.\n");  
         }      
         else  
         {
