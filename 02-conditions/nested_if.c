@@ -29,12 +29,11 @@ int main()
         {
             printf("\nCitizen requirement not met.\n");
         }
-    }
+    } 
     else 
     {
         printf("\nAge requirement not met.\n"); 
     }
-
     printf("\nVerification completed.\n");
 
     return 0;    
