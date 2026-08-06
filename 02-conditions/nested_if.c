@@ -32,7 +32,7 @@ int main()
     }
     else
     {
-        printf("\nAge requirement not met.\n");
+        printf("\nAge requirement not met.\n"); 
     }
 
     printf("\nVerification completed.\n");
