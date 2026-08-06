@@ -14,7 +14,7 @@ int main()
     char citizen;
 
     printf("Enter your age: ");
-    scanf("%d", &age);
+    scanf("%d", &age); 
 
     printf("Are you an Indian citizen? (Y/N): ");
     scanf(" %c", &citizen);
