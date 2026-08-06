@@ -17,7 +17,7 @@ int main()
     scanf("%d", &age);    
 
     printf("Are you an Indian citizen? (Y/N): ");
-    scanf(" %c", &citizen);  
+    scanf(" %c", &citizen);   
 
     if(age >= 18)  
     { 
