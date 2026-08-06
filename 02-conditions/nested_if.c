@@ -21,7 +21,7 @@ int main()
 
     if(age >= 18)    
     { 
-        if(citizen == 'Y' || citizen == 'y')
+        if(citizen == 'Y' || citizen == 'y') 
         {
             printf("\nEligible to vote.\n");  
         }      
