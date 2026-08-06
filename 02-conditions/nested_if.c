@@ -25,7 +25,7 @@ int main()
         {
             printf("\nEligible to vote.\n"); 
         }      
-        else
+        else 
         {
             printf("\nCitizen requirement not met.\n");
         }
