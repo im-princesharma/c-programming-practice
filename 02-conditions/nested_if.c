@@ -9,7 +9,7 @@ Purpose: Learn multiple condition checking
 #include <stdio.h>     
     
 int main()  
-{ 
+{   
     int age;  
     char citizen;
 
@@ -20,7 +20,7 @@ int main()
     scanf(" %c", &citizen);
 
     if(age >= 18)
-    {
+    { 
         if(citizen == 'Y' || citizen == 'y')
         {
             printf("\nEligible to vote.\n");
