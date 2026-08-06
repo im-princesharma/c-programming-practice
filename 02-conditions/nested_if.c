@@ -19,7 +19,7 @@ int main()
     printf("Are you an Indian citizen? (Y/N): ");
     scanf(" %c", &citizen);   
 
-    if(age >= 18)    
+    if(age >= 18)     
     { 
         if(citizen == 'Y' || citizen == 'y') 
         {
