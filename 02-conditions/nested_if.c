@@ -10,7 +10,7 @@ Purpose: Learn multiple condition checking
  
 int main()  
 {
-    int age;
+    int age; 
     char citizen;
 
     printf("Enter your age: ");
